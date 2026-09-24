@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+cat <<'EOF'
+bash
+curl
+git
+Docker (required at runtime by `floci start`, not by this plugin)
+EOF

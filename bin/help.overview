@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+cat <<'EOF'
+floci-cli is the official command-line interface for Floci (https://floci.io),
+a free, open-source local cloud emulator for AWS, GCP, Azure, and OCI. It
+manages the Floci Docker container's lifecycle (start/stop/status/logs) and
+exports SDK/CLI environment variables so tools like the AWS CLI, gcloud, az,
+and oci can talk to the local emulator instead of a real cloud account.
+
+This plugin installs the native `floci` binary published on floci-cli's
+GitHub Releases (https://github.com/floci-io/floci-cli/releases). Docker is
+required at runtime to actually start Floci; this plugin only manages the
+CLI binary itself.
+EOF

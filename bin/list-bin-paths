@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# The floci binary is installed at "$ASDF_INSTALL_PATH/bin/floci".
+echo "bin"

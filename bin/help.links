@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+cat <<'EOF'
+Homepage: https://floci.io
+floci-cli source: https://github.com/floci-io/floci-cli
+floci (emulator) source: https://github.com/floci-io/floci
+Releases: https://github.com/floci-io/floci-cli/releases
+EOF
