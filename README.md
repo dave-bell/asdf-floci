@@ -36,8 +36,6 @@ asdf itself; WSL users get the Linux binary automatically.
 Plugin:
 
 ```shell
-asdf plugin add floci
-# or
 asdf plugin add floci https://github.com/dave-bell/asdf-floci.git
 ```
 
